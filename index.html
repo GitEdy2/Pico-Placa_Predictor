@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <title>Pico-Placa_Predictor</title>
+</head>
+<body>
+    <header>
+        <h1>Pico y Placa Predictor</h1>
+    </header>
+    <div class="main_container">
+        <section>
+            <div class="error_message">
+                <p id="err_message"></p>
+            </div>
+            <form class="plate_form">
+                <div class="labels">
+                    <label for="plate">Enter your plate:</label>
+                    <input type="text" id="plate" placeholder="ABC1234">
+                </div>
+                <div class="labels">
+                    <label for="date">Select Date:</label>
+                    <input type="date" id="date">
+                </div>
+                <div class="labels">
+                    <label for="time">Insert Hour:</label>
+                    <input type="time" id="time">
+                </div>
+                <button class="submit-btn" type="submit">Process</button>
+            </form>
+        </section>
+        <div class="action_message">
+            <p id="message"></p>
+        </div>
+    </div>
+</body>
+</html>
