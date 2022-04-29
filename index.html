@@ -7,18 +7,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./resources/styles.css">
     <title>Pico-Placa_Predictor</title>
 </head>
 <body>
     <header>
-        <h1>Pico y Placa Predictor</h1>
+        <h1>PICO Y PLACA PREDICTOR</h1>
     </header>
     <div class="main_container">
         <section>
             <div class="error_message">
                 <p id="err_message"></p>
             </div>
-            <form class="plate_form">
+            <form id="plate_form">
                 <div class="labels">
                     <label for="plate">Enter your plate:</label>
                     <input type="text" id="plate" placeholder="ABC1234">
@@ -35,8 +36,11 @@
             </form>
         </section>
         <div class="action_message">
-            <p id="message"></p>
+            <p id="info_message"></p>
         </div>
     </div>
+    
+    <script src="./resources/data.js"></script>
+    <script src="./resources/index.js"></script>
 </body>
 </html>
