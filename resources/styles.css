@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 20px;
+    line-height: 1.8;
+}
+
+h1 {
+    text-align: center;
+    color: #59D2FE;
+}
+
+section {
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    flex-direction: column;
+}
+
+form {
+    width: 50%;
+}
+
+form .labels {
+    display: flex;
+    margin: 15px 0;
+    width: 100%;
+    max-width: 500px;
+}
+
+form .labels label {
+    padding-right: 20px;
+}
+
+form .labels input {
+    padding: 3px 15px;
+    width: 50%;
+}
+
+.submit-btn {
+    background-color: #002E2C;
+    height: 54px;
+    width: 113px;
+    cursor: pointer;
+    color:white;
+    font-size: 20px;
+    margin: 15px 40%;
+}
+
+.action_message {
+    border: 3px solid black;
+    height: 55px;
+    width: 50%;
+    margin: auto;
+}
+
+.error_message {
+    height: 30px;
+    width: 50%;
+    margin: auto;
+}
+
+#info_message {
+    text-align: center;
+    font-size: 150%;
+    text-transform: uppercase;
+}
+
+#err_message {
+    color: red;
+    font-size: 25%;
+}
+
+@media screen and (max-widht:750px) {
+    section {
+        margin-top: 25px;
+    }
+
+    form {
+        width: 90%;
+    }
+
+    form .labels {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    form .labels input {
+        height: 40px;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .action_message {
+        height: 120px;
+        width: 100%;
+    }
+
+    .submit-btn {
+        margin: 15px 0;
+        width: 100%;
+    }
+
+    #info_message {
+        font-size: 100%;
+    }
+}
+
+
+
+
+
+
+
