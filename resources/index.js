@@ -20,7 +20,7 @@ class Plate {
         const rest = RESTRICTIONS[day].plate_lastDigit;
 
 
-//Logica para identificar el ultimo digito de la placa.
+//Logica para identificar el ultimo digito de la placa y el horario de circulación.
 
         if(rest.includes(plateLastDigit)) {
             if((hourDay>=7 && hourDay<=9) || (hourDay>=16 && hourDay<=19)) {
