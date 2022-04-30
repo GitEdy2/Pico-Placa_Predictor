@@ -29,10 +29,5 @@ const RESTRICTIONS = {
 
     saturday:{
         plate_lastDigit: []
-    },
-
-    hoursRestriction: {
-        morning: '7:00 - 9:30',
-        evening: '16:00 - 19:30'
     }
 };
