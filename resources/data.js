@@ -1,8 +1,12 @@
 
 
-const DAYS = ['monday','tuesday','wednesday','thursday','friday']
+const DAYS = ['sunday','monday','tuesday','wednesday','thursday','friday','saturday'];
 
 const RESTRICTIONS = {
+    sunday:{
+        plate_lastDigit: []
+    },
+    
     monday:{
         plate_lastDigit: [1,2]
     },
@@ -23,8 +27,12 @@ const RESTRICTIONS = {
         plate_lastDigit: [9,0]
     },
 
+    saturday:{
+        plate_lastDigit: []
+    },
+
     hoursRestriction: {
         morning: '7:00 - 9:30',
         evening: '16:00 - 19:30'
     }
-}
+};
