@@ -75,7 +75,7 @@ form .labels input {
 
 #err_message {
     color: red;
-    font-size: 25%;
+    font-size: 80%;
 }
 
 @media screen and (max-widht:750px) {
