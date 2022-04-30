@@ -1,0 +1,23 @@
+{
+  "name": "pico-placa_predictor",
+  "version": "1.0.0",
+  "description": "Pico-placa_project_predictor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GitEdy2/Pico-Placa_Predictor.git"
+  },
+  "keywords": [
+    "Pico-Placa",
+    "predictor"
+  ],
+  "author": "Edison Proano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GitEdy2/Pico-Placa_Predictor/issues"
+  },
+  "homepage": "https://github.com/GitEdy2/Pico-Placa_Predictor#readme"
+}
