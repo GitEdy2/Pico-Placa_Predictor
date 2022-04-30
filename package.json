@@ -4,7 +4,7 @@
   "description": "Pico-placa_project_predictor",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --verbose"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,8 @@
   "homepage": "https://github.com/GitEdy2/Pico-Placa_Predictor#readme",
   "devDependencies": {
     "jest": "^28.0.3"
+  },
+  "jest": {
+    "testEnvironment": "node"
   }
 }
