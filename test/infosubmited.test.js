@@ -1,8 +1,11 @@
-const { hasUncaughtExceptionCaptureCallback } = require('process')
-const { infoSubmited } = require('../resources/index')
+let Plate = require ('../resources/index');
 
-test('Permission for plate PCQ-8214 to drive in Tuesday at 16:30', () => { 
-    const result = infoSubmited(false, 'No puede circular')
+test('InfoSubmited to the program to analize information', () => { 
+   it('plate should called function',() => {
+    const plate = new Plate();
+        jest.spyON(plate,'infoSubmited');
 
-    expect(result).toBe(false,'No puede circular')
+        expect(plate.infoSubmited(callback).toHaveBeenCalledTimes(1));
+
+   });
 });
