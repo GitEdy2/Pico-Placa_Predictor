@@ -25,7 +25,7 @@ class Plate {
         if(rest.includes(plateLastDigit)) {
             if((hourDay>=7 && hourDay<=9) || (hourDay>=16 && hourDay<=19)) {
                if((hourDay===9 || hourDay===19) && (minHour>=30)) {
-                   return callback (true, `Puede circular`);
+                   return callback(true, `Puede circular`);
                }
                return callback(false, `No puede circular`);
             }
@@ -58,8 +58,7 @@ class USER_INTERFACE {
     }
 }
 
-
-document.getElementById('plate_form').addEventListener('submit', function(e) {
+document.getElementById('plate_form').addEventListener('submit', function analizeInfo(e) {
     e.preventDefault();
 
 
@@ -102,3 +101,5 @@ document.getElementById('plate_form').addEventListener('submit', function(e) {
     }
 
 });
+
+module.exports = Plate;
